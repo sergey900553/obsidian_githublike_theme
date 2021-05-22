@@ -1,12 +1,12 @@
 .search-result-file-matched-text {
-	color: #000;
-    background-color: #20d0b7;
+color: #dedede;
+    background-color: #be1e9685;
 }
 
 
 .cm-s-obsidian span.obsidian-search-match-highlight {
-	color: #000;
-    background-color: #20d0b7;
+color: #dedede;
+    background-color: #be1e9685;
 }
 
 .cm-s-obsidian span.cm-formatting-link {
