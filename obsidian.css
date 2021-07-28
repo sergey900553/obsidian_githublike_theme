@@ -170,10 +170,11 @@ body {
   color: var(--blue);
 }
 
-li {
+/* creates a weird bug for the expand collapse indicator as per v 12.10 */
+/* li {
   padding-top: 0.5px;
   padding-bottom: 0.5px;
-}
+} */
 
 .tag, .tag:hover {
   color: var(--green);
@@ -720,4 +721,3 @@ div[data-path='0attachments'] + div.nav-folder-children
 {
     display: none;
 }
-
