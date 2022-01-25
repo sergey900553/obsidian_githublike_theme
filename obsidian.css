@@ -172,7 +172,12 @@ body {
 
 .markdown-preview-view.is-readable-line-width .markdown-preview-section,
 .markdown-source-view.is-readable-line-width .CodeMirror {
-  max-width: 900px !important;
+  max-width: 850px !important;
+  line-height: 26px;
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl) .cm-scroller > *:first-child {
+    max-width: 850px !important;
   line-height: 26px;
 }
 
