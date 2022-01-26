@@ -675,7 +675,9 @@ span.cm-def.cm-hmd-codeblock {
 	color: #61afef;
 }
 
-
+span.cm-hmd-codeblock.cm-string {
+    color: #15df6b;
+}
 
 /* to have sidebar hide and then reveal on hover
 .app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
