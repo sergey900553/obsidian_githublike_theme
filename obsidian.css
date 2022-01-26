@@ -185,6 +185,11 @@ body {
     min-width: 850px;
 }
 
+.markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-content {
+    max-width: 850px;
+}
+
+
 
 blockquote {
   margin: 20px 0;
