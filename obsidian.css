@@ -386,7 +386,7 @@ pre[class*='language-'] {
 .token.inserted {
   color: var(--green) !important;
 }
-
+/*
 .token.operator,
 .token.entity,
 .token.url,
@@ -395,10 +395,12 @@ pre[class*='language-'] {
   color: var(--altblue) !important;
 }
 
+
 .token.atrule,
 .token.keyword {
   color: var(--purple) !important;
 }
+*/
 
 .token.function,
 .token.macro.property {
@@ -666,6 +668,14 @@ pre code {
 .CodeMirror-scroll::-webkit-scrollbar {
     display: none;
 }
+
+/* my edit code maybe delete*/
+
+span.cm-def.cm-hmd-codeblock {
+	color: #61afef;
+}
+
+
 
 /* to have sidebar hide and then reveal on hover
 .app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
