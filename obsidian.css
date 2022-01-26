@@ -224,10 +224,6 @@ h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
 	
 }
 
-.cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6{
-  font-weight: 600 !important;
-}
-
 
 .workspace > .workspace-split > .workspace-leaf:first-of-type:last-of-type .view-header {
   border: none;
@@ -519,7 +515,7 @@ pre code {
 .cm-header-1
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 28px;
   color: var(--text-title-h1);
 }
@@ -527,7 +523,7 @@ pre code {
 .cm-header-2
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 26px;
   font-weight: bold;
   color: var(--text-title-h2);
@@ -536,7 +532,7 @@ pre code {
 .cm-header-3
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 22px;
   font-weight: bold;
   color: var(--text-title-h3);
@@ -545,7 +541,7 @@ pre code {
 .cm-header-4
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 20px;
   font-weight: bold;
   color: var(--text-title-h4);
@@ -554,7 +550,7 @@ pre code {
 .cm-header-5
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 18px;
   font-weight: bold;
   color: var(--text-title-h5);
@@ -563,7 +559,7 @@ pre code {
 .cm-header-6
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 16px;
   font-weight: bold;
   color: var(--text-title-h6);
