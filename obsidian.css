@@ -284,3 +284,6 @@ code[class*="language-"] {
 	line-height: 1.5em;
 }
 
+.cm-s-obsidian .HyperMD-codeblock {
+    line-height: 1.4;
+}
