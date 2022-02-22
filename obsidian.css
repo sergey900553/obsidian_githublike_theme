@@ -287,3 +287,7 @@ code[class*="language-"] {
 .cm-s-obsidian .HyperMD-codeblock {
     line-height: 1.4;
 }
+
+.nav-file-title, .nav-folder-title {
+    font-size: 15px;
+}
