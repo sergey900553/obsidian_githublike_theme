@@ -264,6 +264,11 @@ code[class*="language-"] {
     margin-right: auto;
 }
 
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 1000px;
+}
+
+
 
 
 /* little change */
