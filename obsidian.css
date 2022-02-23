@@ -296,3 +296,7 @@ code[class*="language-"] {
 .nav-file-title, .nav-folder-title {
     font-size: 15px;
 }
+
+ol {
+    margin-block-start: -0.5em;
+}
