@@ -65,6 +65,7 @@
   
   --font-weight-title: 600;
   --font-monospace: Consolas;
+  --line-height-headers: 1;
 }
 
 
@@ -91,6 +92,7 @@ color: #dedede;
   font-weight: var(--font-weight-title);
   color: var(--text-title-h1);
   margin-top: 0px;
+  line-height:var(--line-height-headers);
 
 }
 
@@ -99,6 +101,7 @@ color: #dedede;
   font-family: var(--font-family-preview);
   font-weight: var(--font-weight-title);
   color: var(--text-title-h2);
+line-height:var(--line-height-headers);
 }
 
 .markdown-preview-view h3
@@ -106,6 +109,7 @@ color: #dedede;
   font-family: var(--font-family-preview);
   font-weight: var(--font-weight-title);
   color: var(--text-title-h3);
+  line-height:var(--line-height-headers);
 }
 
 .markdown-preview-view h4
@@ -113,6 +117,7 @@ color: #dedede;
   font-family: var(--font-family-preview);
   font-weight: var(--font-weight-title);
   color: var(--text-title-h4);
+  line-height:var(--line-height-headers);
 }
 
 .markdown-preview-view h5
@@ -120,6 +125,7 @@ color: #dedede;
   font-family: var(--font-family-preview);
   font-weight: var(--font-weight-title);
   color: var(--text-title-h5);
+  line-height:var(--line-height-headers);
 }
 
 .markdown-preview-view h6
@@ -127,6 +133,7 @@ color: #dedede;
   font-family: var(--font-family-preview);
   font-weight: var(--font-weight-title);
   color: var(--text-title-h6);
+  line-height:var(--line-height-headers);
 }
 
 
@@ -137,6 +144,7 @@ color: #dedede;
   font-family: var(--font-family-editor);
   font-weight: var(--font-weight-title) !important;
   color: var(--text-title-h1);
+  line-height:var(--line-height-headers);
 }
 
 .cm-header-2
@@ -144,6 +152,7 @@ color: #dedede;
   font-family: var(--font-family-editor);
   font-weight: var(--font-weight-title) !important;
   color: var(--text-title-h2);
+  line-height:var(--line-height-headers);
 }
 
 .cm-header-3
@@ -151,6 +160,7 @@ color: #dedede;
   font-family: var(--font-family-editor);
   font-weight: var(--font-weight-title) !important;
   color: var(--text-title-h3);
+  line-height:var(--line-height-headers);
 }
 
 .cm-header-4
@@ -158,13 +168,16 @@ color: #dedede;
   font-family: var(--font-family-editor);
   font-weight: var(--font-weight-title) !important;
   color: var(--text-title-h4);
+  line-height:var(--line-height-headers);
 }
+
 
 .cm-header-5
 {
   font-family: var(--font-family-editor);
   font-weight: var(--font-weight-title) !important;
   color: var(--text-title-h5);
+  line-height:var(--line-height-headers);
 }
 
 .cm-header-6
@@ -172,6 +185,7 @@ color: #dedede;
   font-family: var(--font-family-editor);
   font-weight: var(--font-weight-title) !important;
   color: var(--text-title-h6);
+  line-height:var(--line-height-headers);
 }
 
 
@@ -236,7 +250,7 @@ code[class*="language-"] {
 }
 
 .markdown-preview-view pre {
-    padding: 12px 20px;
+    padding: 12px 12px;
 }
 
 
