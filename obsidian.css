@@ -308,6 +308,8 @@ code[class*="language-"] {
     font-size: 15px;
 }
 
+/*makes a denser list, but breaks nesting */
+/*
 ol {
     margin-block-start: -0.5em;
     padding-inline-start: 35px;
@@ -317,7 +319,7 @@ ul {
     margin-block-start: -0.5em;
     padding-inline-start: 35px;
 }
-
+*/
 
 div[data-path='0attachments'], 
 div[data-path='0attachments'] + div.nav-folder-children 
