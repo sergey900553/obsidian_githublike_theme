@@ -317,3 +317,10 @@ ul {
     margin-block-start: -0.5em;
     padding-inline-start: 35px;
 }
+
+
+div[data-path='0attachments'], 
+div[data-path='0attachments'] + div.nav-folder-children 
+{
+    display: none;
+}
