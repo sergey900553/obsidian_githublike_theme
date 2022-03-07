@@ -346,3 +346,7 @@ div[data-path='0attachments'] + div.nav-folder-children
 {
     display: none;
 }
+
+.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
+    margin: 0;
+}
