@@ -2,6 +2,10 @@
 	--default-font: "Segoe UI";
 }
 
+body .modal {
+    border-radius: 18px;
+}
+
 .theme-dark {
   --text-accent-hover: #45ba4b;
   --background-primary: #161b22;
@@ -283,6 +287,20 @@ code[class*="language-"] {
 .markdown-source-view.is-readable-line-width .CodeMirror {
     max-width: 1000px;
 }
+
+
+
+/* #tag */
+a.tag {
+    color: #58a6ff;
+}
+
+.cm-s-obsidian span.cm-hashtag {
+  color: #58a6ff;
+  text-decoration: underline;
+}
+
+
 
 
 
