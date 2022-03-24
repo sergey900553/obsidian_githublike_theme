@@ -340,14 +340,22 @@ a.tag {
     font-size: 15px;
 }
 
-
-
-
 .nav-file-title, .nav-folder-title {
     color: #757e8a;
 }
 
+span.cm-strong {
+	/* text-decoration: solid underline red 3px; */
+	font-weight: 600 !important;
+	color: #fff;
+	
+}
 
+strong {
+	/* text-decoration: solid underline red 3px; */
+   	font-weight: 600 !important;
+	color: #fff;
+}
 
 
 
