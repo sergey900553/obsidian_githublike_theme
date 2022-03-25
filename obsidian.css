@@ -358,8 +358,13 @@ strong {
 }
 
 
+.footnotes p {
+	margin: 0;
+}
 
-
+.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
+    margin: 0;
+}
 
 div[data-path='0attachments'], 
 div[data-path='0attachments'] + div.nav-folder-children 
@@ -367,6 +372,4 @@ div[data-path='0attachments'] + div.nav-folder-children
     display: none;
 }
 
-.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
-    margin: 0;
-}
+
