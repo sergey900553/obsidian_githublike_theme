@@ -79,13 +79,38 @@ body .modal {
 /* search */
 
 .search-result-file-matched-text {
-color: #dedede;
-    background-color: #be1e9685;
+	color: #0d1117;
+    background-color: #ffff00;
 }
+
+.cm-s-obsidian span.obsidian-search-match-highlight {
+	color: #0d1117;
+    background-color: #ffff00;
+}
+
+/*
+.markdown-rendered .search-highlight > div {
+  position: absolute;
+  pointer-events: none;
+  color: red;
+  background-color: #ff9632;
+  mix-blend-mode: soft-light;
+}
+
+.markdown-rendered .search-highlight > div.is-active {
+    background-color: #ffff00;
+	text-decoration: underline;
+	border-bottom: solid 4px red;
+
+}
+*/
+
 
 .search-result-file-title {
   color: var(--blue);
 }
+
+
 
 
 
