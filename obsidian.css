@@ -88,22 +88,20 @@ body .modal {
     background-color: #ffff00;
 }
 
-/*
+
 .markdown-rendered .search-highlight > div {
   position: absolute;
   pointer-events: none;
-  color: red;
-  background-color: #ff9632;
-  mix-blend-mode: soft-light;
+  background-color: #161b22;
+  mix-blend-mode: lighten;
+  border-bottom: 0.25em solid #ff9632;
 }
 
 .markdown-rendered .search-highlight > div.is-active {
-    background-color: #ffff00;
-	text-decoration: underline;
-	border-bottom: solid 4px red;
-
+    background-color: #161b22;
+  	border-bottom: 0.25em solid #ffff00;
 }
-*/
+
 
 
 .search-result-file-title {
