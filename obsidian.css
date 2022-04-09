@@ -94,12 +94,12 @@ body .modal {
   pointer-events: none;
   background-color: #161b22;
   mix-blend-mode: lighten;
-  border-bottom: 0.25em solid #ff9632;
+  border-bottom: 0.20em solid #ff9632;
 }
 
 .markdown-rendered .search-highlight > div.is-active {
     background-color: #161b22;
-  	border-bottom: 0.25em solid #ffff00;
+  	border-bottom: 0.20em solid #ffff00;
 }
 
 
