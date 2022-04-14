@@ -395,6 +395,11 @@ strong {
     margin: 0;
 }
 
+
+.markdown-rendered code {
+    color: var(--cyan);
+}
+
 div[data-path='0attachments'], 
 div[data-path='0attachments'] + div.nav-folder-children 
 {
