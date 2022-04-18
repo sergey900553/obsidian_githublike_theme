@@ -1,5 +1,5 @@
 :root {
-	--default-font: "Segoe UI";
+	--default-font: "Segoe UI","Arial","Tahoma","Helvetica",sans-serif;
 }
 
 body .modal {
