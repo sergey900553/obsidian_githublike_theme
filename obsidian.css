@@ -295,8 +295,8 @@ code[class*="language-"] {
 }
 
 .theme-dark :not(pre) > code[class*="language-"], .theme-dark pre[class*="language-"] {
-    margin-top: -0.5em;
-    margin-bottom: -0.5em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
 }
 
 
