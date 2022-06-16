@@ -406,4 +406,8 @@ div[data-path='0attachments'] + div.nav-folder-children
     display: none;
 }
 
+ul {
+    margin-block-start: -0.8em;
+    margin-block-end: 0em;
+}
 
