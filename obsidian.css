@@ -60,6 +60,7 @@ body .modal {
   --lime:             #b2f711;
   --aquadark:         #0b4c5e;
   --lila:             #c90481;
+  --green-light: #3eb4bf;
 
 
   --text-title-h1:              #289aff;
@@ -343,6 +344,21 @@ a.tag {
 
 
 
+/* Blockquotes */
+
+.markdown-preview-view blockquote {
+  border: solid #4879a3 ;
+  border-width: 0px 0px 0px 3px;
+ // background-color: #121212;
+  color: var(--green-light);
+  font-style: italic;
+}
+
+.cm-s-obsidian span.cm-quote {
+  color: var(--green-light);
+  font-style: italic;
+  
+}
 
 
 
