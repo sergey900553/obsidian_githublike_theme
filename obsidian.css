@@ -1,5 +1,6 @@
 :root {
 	--default-font: "Segoe UI","Arial","Tahoma","Helvetica",sans-serif;
+	--file-line-width: 1000px;
 }
 
 body .modal {
@@ -303,32 +304,6 @@ code[class*="language-"] {
 
 
 
-
-/* width of content editor */
-.markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl) .cm-contentContainer {
-    max-width: 1000px;
-  /*  margin-right: auto; */
-}
-
-.markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-content {
-    max-width: 1000px;
-}
-
-.markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-line:not(.HyperMD-table-row) {
-    max-width: 1000px;
-}
-
-
-/* width of content preview-view */
-.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
-    max-width: 1000px;
-/*     margin-left: auto; */
-/*    margin-right: auto; */
-}
-
-.markdown-source-view.is-readable-line-width .CodeMirror {
-    max-width: 1000px;
-}
 
 
 
