@@ -74,6 +74,7 @@ body .modal {
   --font-weight-title: 600;
  //forme --font-monospace: "Consolas","Fira Code","Source Code Pro","Droid Sans Mono","Monoid","Arial",sans-serif;
   --line-height-headers: 1;
+	--file-line-width: 1000px;
 }
 
 
