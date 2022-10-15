@@ -12,7 +12,7 @@ body .modal {
   --background-primary-alt: #13161b;
   --background-secondary: #11161d;
   --background-secondary-alt: #0d1117;
-  --background-accent: #000
+  --background-accent: #000;
   --background-modifier-border: #424958;
   --background-modifier-form-field: rgba(0, 0, 0, 0.3);
   --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
