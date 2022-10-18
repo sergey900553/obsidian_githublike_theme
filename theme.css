@@ -7,7 +7,8 @@ body .modal {
 }
 
 .theme-dark {
-  --text-accent-hover: #45ba4b;
+  --text-accent-hover: hsl(123, 46%, 50%);
+
   --background-primary: #161b22;
   --background-primary-alt: #13161b;
   --background-secondary: #11161d;
@@ -22,10 +23,11 @@ body .modal {
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #ff0f44;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
-  --text-accent: #45ba4b;
+  --text-accent: hsl(123, 46%, 50%);
+  --text-accent-hover: ;
   /*Color de link4c78cc*/
   /* --text-accent: #ffc83f;         /*Color de link4c78cc*/
-  --text-accent-hover: #ff5555;
+  --text-accent-hover: hsl(123, 80%, 60%);
   /*Color link preview*/
   --text-normal: #dedede;
   /*#dcddde;*/
@@ -40,6 +42,7 @@ body .modal {
   --text-selection: rgba(0, 122, 255, 0.2);
   /*texto seleccionado*/
   --text-on-accent: #dcddde;
+  
   --interactive-normal: #20242b;
   --interactive-hover: #353b47;
   --interactive-accent: #4c78cc;
