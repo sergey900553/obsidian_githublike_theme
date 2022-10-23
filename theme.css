@@ -97,7 +97,6 @@
   .cm-s-obsidian span.obsidian-search-match-highlight {
     background-color: #ffff00;
     box-shadow: none;
-    border-bottom: 40px solid yellow;
   }
   
   .obsidian-search-match-highlight * {
@@ -107,7 +106,6 @@
   .markdown-rendered .search-highlight>div {
     opacity: 1;
     box-shadow: 0px 0.20em 0px 0  #ff9632;
-    border-bottom: 40px solid yellow;
   
   }
   
