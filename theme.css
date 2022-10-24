@@ -96,6 +96,7 @@
   .cm-s-obsidian span.obsidian-search-match-highlight {
     background-color: #ffff00;
     box-shadow: none;
+    color: #0d1117;
   }
   
   .obsidian-search-match-highlight * {
