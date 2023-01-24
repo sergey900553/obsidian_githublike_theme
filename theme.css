@@ -54,7 +54,7 @@
     --orange: #ffc83f;
     --magenta: #ff2857;
     --altblue: #0087ff;
-    --cyan: #00b0ff;
+    --cyan: #62bbe5;
     --yellow: #fccd11;
     --light-orange: #ff693f;
     --lime: #b2f711;
@@ -418,7 +418,7 @@
   
   
   .markdown-rendered code {
-    color: #62bbe5 !impornant;
+    color: var(--cyan);
 }
   
   
