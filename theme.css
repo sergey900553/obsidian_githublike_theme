@@ -418,10 +418,8 @@
   
   
   .markdown-rendered code {
-    color: var(--cyan);
-  }
-  
-  
+    color: #62bbe5;
+}
   
   
   body:not(.is-grabbing) .nav-file-title:hover,
