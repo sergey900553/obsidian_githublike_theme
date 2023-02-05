@@ -386,9 +386,9 @@
     line-height: 1.4;
   }
   
-  .nav-file-title, .nav-folder-title {
+/*   .nav-file-title, .nav-folder-title {
     font-size: 15px;
-  }
+  } */
   
   .nav-file-title, .nav-folder-title {
     color: #757e8a;
