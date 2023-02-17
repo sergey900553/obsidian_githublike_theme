@@ -454,3 +454,50 @@
     color: var(--blue);
   
   }
+
+a.external-link[href="https://github.com/sergey900553/obsidian_dekurai_theme"] {
+
+  color: white;
+
+  text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 16px #5271ff,
+    0 0 32px #5271ff,
+    0 0 64px #5271ff,
+    0 0 128px #5271ff,
+    0 0 256px #5271ff;
+  animation: pulsate 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulsate {
+
+  100% {
+
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #5271ff,
+      0 0 80px #5271ff,
+      0 0 90px #5271ff,
+      0 0 100px #5271ff,
+      0 0 150px #5271ff;
+
+  }
+
+  0% {
+
+    text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+
+  }
+}
